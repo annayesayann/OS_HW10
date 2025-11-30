@@ -31,7 +31,7 @@ void* func(void* arg){
 
 int main(int argc, char* argv[]) {
 	if (strcmp(argv[1], "nosync") == 0) {
-		type = "";
+		type = "nosync";
 		printf("Inside no sync\n");
 	}
         else if (strcmp(argv[1], "mutex") == 0) {
